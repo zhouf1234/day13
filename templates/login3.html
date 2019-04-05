@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login3Title</title>
+</head>
+<body>
+<form action="/login3/" method="post">
+    {% csrf_token %}
+    <input type="text" name="user">
+    <input type="password" name="pwd">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
